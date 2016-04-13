@@ -15,7 +15,7 @@ function respond() {
   } 
   else if(request.text && testRegex.test(request.text)) {
     this.res.writeHead(200);
-    writeMessage("Pong!");
+    writeMessage("Pong! test lol");
     this.res.end();
   } else {
     console.log("don't care");
