@@ -29,5 +29,5 @@ server.listen(port);
 
 function ping() {
   this.res.writeHead(200);
-  this.res.end("Hi, I'm Henry! The 3S chatbot");
+  this.res.end("Hi, I'm Sweetie Bot!");
 }
